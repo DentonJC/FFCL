@@ -1,0 +1,4 @@
+guild run main.py model=mlp dataset='[mnist]' batch_size=[512,256,128,64] batch_size_mem=[512,256,128,64] memory_size=[1000,500,200,100,50] num_epochs=0 learning_rate=0.1 alpha=0.04 threshold=2 trials=7 epochs='[5,10,20]' --needed --yes
+guild run main.py model=mlp_ff dataset='[mnist]' batch_size=[512,256,128,64] batch_size_mem=[512,256,128,64] memory_size=[1000,500,200,100,50] num_epochs='[5,10,20]' learning_rate=0.1 alpha=0.04 threshold=2 trials=7 epochs=1 --needed --yes
+guild run main.py model=mlp dataset='[fmnist]' batch_size=[512,256,128,64] batch_size_mem=[512,256,128,64] memory_size=[1000,500,200,100,50] num_epochs=0 learning_rate=0.1 alpha=0.04 threshold=2 trials=7 epochs='[5,10,20]' --needed --yes
+guild run main.py model=mlp_ff dataset='[fmnist]' batch_size=[512,256,128,64] batch_size_mem=[512,256,128,64] memory_size=[1000,500,200,100,50] num_epochs='[5,10,20]' learning_rate=0.1 alpha=0.04 threshold=2 trials=7 epochs=1 --needed --yes
